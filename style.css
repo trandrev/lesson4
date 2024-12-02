@@ -1,0 +1,83 @@
+.wrapper1 button {
+    border: 1px solid royalblue;
+    margin-right: -5px;
+    background-color: white;
+    color: royalblue;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.wrapper1 button:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.wrapper1 button:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.wrapper1 button:hover {
+    background-color: royalblue;
+    color: white;
+}
+
+.wrapper2{
+    margin-top: 20px;
+}
+
+.wrapper2 div {
+    border: 1px solid #ddd;
+}
+
+.wrapper2 img {
+    width: 200px;
+}
+
+.nav {
+    border-radius: 4px 4px 0 0;
+    padding: 7px;
+}
+
+.content {
+    border-radius: 0 0 4px 4px;
+    padding: 12px;
+}
+
+.nav button {
+    border: 1px solid royalblue;
+    background-color: royalblue;
+    color: #fff;
+    padding: 4px 10px;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+.nav > * {
+    margin-right: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.content p {
+    text-shadow: 0px 0px 10px purple;
+}
+
+.content a {
+    padding: 4px 30px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: royalblue;
+    border-radius: 5px 5px 5px 5px;
+}
